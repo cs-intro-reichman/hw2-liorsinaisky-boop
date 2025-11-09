@@ -7,7 +7,7 @@ public class TimeCalc {
         int totalHours = totalMimutes/60;
         int newHours = totalHours%24;
         int newMinutes = totalMimutes-(totalHours*60);
-        if (totalHours<10 && newMinutes<10){
+        if (newHours<10 && newMinutes<10){
             System.out.println("0" + newHours + ":0" + newMinutes);
         }
         else if (newHours>=10 && newMinutes<10){
