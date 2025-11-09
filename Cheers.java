@@ -14,7 +14,7 @@ public class Cheers {
             if (vowels.indexOf(c) == -1) {
                 System.out.println("Give me a  " + word.charAt(place) + ": " + word.charAt(place) + "!");
             } else {
-                System.out.println("Give me an  " + word.charAt(place) + ": " + word.charAt(place) + "!");
+                System.out.println("Give me an " + word.charAt(place) + ": " + word.charAt(place) + "!");
             }
         }
         System.out.println("What does that spell?");
